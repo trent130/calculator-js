@@ -3,6 +3,7 @@ body{
 	background: #ECEDEF;
 	margin: 0;
 	padding: 0;
+	background-image: url(./images/bg.jpg);
 	box-sizing: border-box;
 }
  
@@ -11,18 +12,19 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: #fff;
+	background: #3449;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
 	border-radius: 14px;
 	padding-bottom: 20px;
 	width: 320px;
 	
 }
+
 .display {
 	width: 100%;
 	height: 60px;
 	padding: 40px 0;
-	background: #FF0509;
+	background: cadetblue;
 	border-top-left-radius: 14px;
 	border-top-right-radius: 14px;
 }
@@ -40,13 +42,13 @@ input[type=button] {
 	padding: 0;
 	margin: 5px;
 	box-sizing: border-box;
-	background: #ecedef;
+	background: #3449;
 	border: none;
 	font-size: 30px;
 	line-height: 30px;
 	border-radius: 50%;
 	font-weight: 700;
-	color: #5E5858;
+	color: #ffffff;
 	cursor: pointer;
 	
 }
@@ -58,7 +60,7 @@ input[type=text] {
 	box-sizing: border-box;
 	border: none;
 	background: none;
-	color: #ffffff;
+	color: #fff;
 	text-align: right;
 	font-weight: 700;
 	font-size: 18px;
@@ -67,7 +69,7 @@ input[type=text] {
 	
 }
 .red {
-	background: #FF0509 !important;
+	background: cadetblue !important;
 	color: #ffffff !important;
 	
 }
