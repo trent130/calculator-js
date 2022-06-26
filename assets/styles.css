@@ -1,8 +1,9 @@
 
-body, html {
+body{
 	background: #ECEDEF;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
  
 .container {
@@ -60,7 +61,7 @@ input[type=text] {
 	color: #ffffff;
 	text-align: right;
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 18px;
 	line-height: 60px;
 	margin: 0 25px;
 	

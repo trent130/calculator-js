@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Calc</title>
+</head>
+
+<body>
+    <center>
+    <div class="container">
+        <form name="form">
+            <div class="display">
+                <input type="text" placeholder="0" name="displayResult" />
+            </div>
+            <div class="buttons">
+                <div class="row" style="display: flex;">
+                    <input type="button" data-clear style="flex: 1; border-radius: 99px;" value="CL">
+                    <input type="button" data-delete style="flex: 1; border-radius: 99px;" value="del">
+                </div>
+                <div class="row">
+                    <input type="button" name="b7" data-number value="7">
+                    <input type="button" name="b8" data-number value="8" >
+                    <input type="button" name="b9" data-number value="9" >
+                    <input type="button" name="addition" data-operation value="+" >
+                </div>
+
+                <div class="row">
+                    <input type="button" name="b4" data-number value="4" >
+                    <input type="button" name="b5" data-number value="5" >
+                    <input type="button" name="b6" data-number value="6" >
+                    <input type="button" name="subtraction" data-operation value="-" >
+                </div>
+
+                <div class="row">
+                    <input type="button" name="b1" data-number value="1" >
+                    <input type="button" name="b2" data-number value="2" >
+                    <input type="button" name="b3" data-number value="3" >
+                    <input type="button" name="multiplication" data-operation value="*" >
+                </div>
+
+                <div class="row">
+                    <input type="button" name="b0" data-number value="0" >
+                    <input type="button" name="potb" data-dot value="." >
+                    <input type="button" name="divb" data-operation value="/" >
+                    <input type="button" class="red" data-equals value="=" >
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <script src="./assets/main.js"></script>
+    </center>
+</body>
+
+</html>
+
